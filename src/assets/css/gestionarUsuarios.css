@@ -1,0 +1,123 @@
+
+.contenedor-principal-gestionarU {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+  .adminestados{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .contenedor-inputs-gestionarU {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+.select-gestionar{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.label-gestionar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contenedor-principal-gestionarU{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    height: 178px;
+    margin: 12px 0;
+    gap: none;
+}
+.contenedor_administrarcitas{
+  flex-direction: column;
+  height: 240px;
+}
+
+  .input-gestionarU {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .input-gestionarU input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid gray; /* establecer un borde personalizado de 1px de ancho y color gris */
+    outline: none;
+  }
+  .input-gestionarU input:focus {
+    border: 2px solid #005f76;
+  }
+  
+  .contenedor-botones-gestionarU {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .contenedor-botones-gestionarU button {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  .gestionar-color{
+    background-color:#0F9A71;
+  }
+
+  .contenedor-botones-gestionarU button:hover {
+    background-color: #005f76;
+  }
+  .activar_estados {
+    background-color:#0F9A71;
+  }
+  .activar_estados:hover {
+    background-color: #005f76;
+  }
+  .desactivar{
+    background-color:red;
+  }
+  .desactivar:hover {
+    background-color: rgb(171, 0, 0);
+  }
+  
+  .editar {
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .activar {
+    background-color: #0F9A71;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+  @media (max-width:1000px){ 
+    .contenedor-principal-gestionarU {
+        flex-direction: column;
+        height: 530px;
+      }
+      .contenedor-inputs-gestionarU {
+        flex-direction: column;
+        gap: 0;
+      }
+      .contenedor_administrarcitas{
+        height: 216px;
+      }
+    }
